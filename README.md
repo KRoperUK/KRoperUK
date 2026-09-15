@@ -1,13 +1,14 @@
 <h1 align="center">Hi, I'm Kieran 👋</h1>
 
 <p align="center">
-  Developer from the UK 🇬🇧 — I make everyday data useful: home automation,
-  iOS apps, and tools that wrangle APIs that were never meant to be wrangled.
+  UK developer building <strong>Home Assistant integrations</strong>, <strong>iOS apps</strong>,
+  and tools for APIs that were never meant to be public.
 </p>
 
 <p align="center">
   <a href="https://www.kroper.uk"><img alt="Website" src="https://img.shields.io/badge/Website-kroper.uk-2563EB?style=for-the-badge&logo=safari&logoColor=white"></a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=KRoperUK&style=for-the-badge&color=2563EB&label=Profile+views">
+  <a href="https://www.linkedin.com/in/kieranroper/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Kieran_Roper-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/KRoperUK?tab=repositories&q=&type=source&language="><img alt="Repositories" src="https://img.shields.io/badge/Repositories-source-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 ---
@@ -26,28 +27,47 @@
   <img alt="Terraform" src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white">
 </p>
 
+### 🏡 Home Assistant integrations
+
+MIT-licensed, with automated releases and per-project docs.
+
+| Integration | What it does |
+| --- | --- |
+| ⚡ [**sungrow-hass**](https://github.com/KRoperUK/sungrow-hass) | Sungrow solar inverter data from the iSolarCloud API |
+| 🔥 [**dimplex-controller-hass**](https://github.com/KRoperUK/dimplex-controller-hass) | Control Dimplex heaters and hubs |
+| 🔌 [**uw-hass**](https://github.com/KRoperUK/uw-hass) | Utility Warehouse energy, bills and meter readings |
+| 🩸 [**give-blood-hass**](https://github.com/KRoperUK/give-blood-hass) | NHS Give Blood appointments, eligibility and credits |
+| 📶 [**mozillion-hass**](https://github.com/KRoperUK/mozillion-hass) | Mozillion mobile data usage |
+| 🌐 [**hyperoptic-hass**](https://github.com/KRoperUK/hyperoptic-hass) | Hyperoptic broadband package as sensors |
+| 🏋️ [**nrg-gyms-hass**](https://github.com/KRoperUK/nrg-gyms-hass) | NRG Gyms live occupancy / status |
+
 ### 🚀 What I'm building
 
 - ⛽ **[Fill 'er Up](https://www.kroper.uk)** — a UK fuel-price **iOS & CarPlay** app (SwiftUI) that finds the cheapest fuel nearby from live DfT Fuel Finder data, with price history, trends, and a garage / MOT tracker. _Coming to the App Store._
-- 🏡 **Home Assistant integrations** — one dashboard for everything:
-  [Sungrow](https://github.com/KRoperUK/sungrow-hass) solar ·
-  [Dimplex](https://github.com/KRoperUK/dimplex-controller-hass) heating ·
-  [Hyperoptic](https://github.com/KRoperUK/hyperoptic-hass) broadband ·
-  [NRG Gyms](https://github.com/KRoperUK/nrg-gyms-hass) ·
-  [Mozillion](https://github.com/KRoperUK/mozillion-hass) ·
-  [Lebara](https://github.com/KRoperUK/lebara-uk-hass)
+- 🍐 **[Pear'd](https://github.com/KRoperUK/peard)** — moments and tallies shared with your favourite people: a native SwiftUI app with a Go / PocketBase backend.
 - 🧩 **Reverse-engineering undocumented APIs** — Python clients & scrapers like
-  [hyperoptic-py](https://github.com/KRoperUK/hyperoptic-py) and
-  [get_spoons](https://github.com/KRoperUK/get_spoons)
+  [hyperoptic-py](https://github.com/KRoperUK/hyperoptic-py),
+  [ukfuelfinder](https://github.com/KRoperUK/ukfuelfinder) and
+  [get_spoons](https://github.com/KRoperUK/get_spoons), plus
+  [smeg-plus-patches](https://github.com/KRoperUK/smeg-plus-patches) for PSA/Stellantis SMEG+ head units
 - 🧱 **Infra & web** — a [Terraform provider for Stremio](https://github.com/KRoperUK/terraform-provider-stremio) (Go), plus assorted Svelte / TypeScript web apps
+
+### 📦 Published packages
+
+- [`sungrow-isolarcloud`](https://pypi.org/project/sungrow-isolarcloud/) — async Python client for the Sungrow iSolarCloud API
+- [`hyperoptic`](https://pypi.org/project/hyperoptic/) — Python client for the private Hyperoptic broadband API
+- [Terraform Registry](https://registry.terraform.io/providers/KRoperUK/stremio/latest) — `stremio` provider
+
+### 🧰 Blueprints
+
+Starting your own integration? These are the templates these repos were built from:
+
+- [**blueprint-integration-hass**](https://github.com/KRoperUK/blueprint-integration-hass) — HACS integration template (CI, semver pre-releases, quality-scale patterns)
+- [**blueprint-library-py**](https://github.com/KRoperUK/blueprint-library-py) — Python client library template (PyPI, release-please, typed)
 
 ### 📊 GitHub stats
 
 <p align="center">
   <img height="165" alt="Kieran's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=KRoperUK&show_icons=true&hide_border=true&theme=tokyonight">
   <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRoperUK&layout=compact&hide_border=true&theme=tokyonight">
-</p>
-
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=KRoperUK&hide_border=true&theme=tokyonight">
 </p>
