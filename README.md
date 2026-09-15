@@ -68,6 +68,6 @@ Starting your own integration? These are the templates these repos were built fr
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" alt="Kieran's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=KRoperUK&show_icons=true&hide_border=true&theme=tokyonight">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRoperUK&layout=compact&hide_border=true&theme=tokyonight">
+  <img height="165" alt="Kieran's GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KRoperUK&theme=tokyonight&hide_border=true">
+  <img height="165" alt="Top languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KRoperUK&theme=tokyonight&hide_border=true">
 </p>
